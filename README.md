@@ -1,4 +1,4 @@
-# Crime-Prediction
+# CrimeReport-Analysis
 This project utilizes Django to create a web-based crime reporting platform, enabling users to 
 submit diverse data elements. Leveraging machine learning algorithms such as Random Forest for 
 crime prediction and K-Means for resource allocation, the system analyses historical data. 
