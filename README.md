@@ -18,18 +18,6 @@ crime reporting process but also contributes to more efficient resource allocati
 crime prevention strategies. The emphasis on data analysis and visualization tools aims to foster 
 evidence-based decision-making for a safer community.
 
-# Work Flow
-1. User Registration and Authentication: Use Django's built-in authentication system to set up user registration, login, and password reset functionality. Create user roles, such as regular users and administrators, and manage permissions accordingly. Admins might have the ability to review reported crimes and manage user accounts.
-
-2. Data Input and Visualisation: Create a user-friendly form for inputting crime data, including fields for location, type, date, and description.Use Django models to store this data in your database. Implement data analysis and visualisation using EDA and libraries like Matplotlib, Seaborn to display crime trends and statistics to users.
-
-3. Crime Trend Analysis: Develop algorithms for time-series analysis to identify trends and patterns in historical crime data. Create visualisations like line charts, heatmaps, or bar graphs to represent these trends. Users can see how crime rates change over time and identify seasonal or long-term patterns. Design database models that align with the structure of the imported data.
-
-4. Crime Hotspot Identification: Use clustering algorithms (here, K-Means) to identify crime hotspots based on historical data. Overlay hotspot data on a map to provide users with a visual representation of high-crime areas.
-
-5. Crime Prediction: Implement machine learning models (here, regression) to predict future crime rates based on historical data and user-defined criteria (e.g., time of day, location). Display predicted results to users, along with metrics indicating the model's accuracy or confidence in the predictions.
-
- ![image](https://github.com/user-attachments/assets/9ee6191b-d161-46c1-aec7-b60ea985af23)
 
  # Algorithms 
  1. Random Forest:
